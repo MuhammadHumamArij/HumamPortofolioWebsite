@@ -1,0 +1,234 @@
+.home,
+.home * {
+  box-sizing: border-box;
+}
+.home {
+  padding: 60px 80px 60px 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 685px;
+  position: relative;
+  overflow-y: auto;
+}
+.vector-200 {
+  flex-shrink: 0;
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  overflow: visible;
+}
+.hi-welcome-to-my-website-portofolio {
+  text-align: left;
+  font-family: "Kanit-Regular", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 91px;
+  top: 140px;
+  width: 548px;
+  height: 48px;
+}
+.hi-welcome-to-my-website-portofolio-span {
+  color: #ffffff;
+  font-family: "Kanit-Regular", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+}
+.hi-welcome-to-my-website-portofolio-span2 {
+  color: #77de00;
+  font-family: "Kanit-Regular", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+}
+.a-passionate-graphic-designer {
+  color: #77de00;
+  text-align: left;
+  font-family: "Kanit-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 91px;
+  top: 390px;
+}
+.i-m-muhammad-humam-arij {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Kanit-Regular", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  position: absolute;
+  left: 91px;
+  top: 191px;
+  width: 532px;
+  height: 156px;
+}
+.frame-6 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 153px;
+  height: 166px;
+  position: absolute;
+  left: 1171.01px;
+  top: 119px;
+}
+.mask-group {
+  flex-shrink: 0;
+  width: 138.01px;
+  height: 149.53px;
+  position: relative;
+  overflow: visible;
+}
+.ellipse-10 {
+  background: #ff9a00;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 158px;
+  height: 158px;
+  position: absolute;
+  left: 897.01px;
+  top: 119px;
+}
+.frame-5 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 153px;
+  height: 166px;
+  position: absolute;
+  left: 953.01px;
+  top: 387px;
+}
+.mask-group2 {
+  flex-shrink: 0;
+  width: 138.01px;
+  height: 149.53px;
+  position: relative;
+  overflow: visible;
+}
+.ellipse-7 {
+  background: #488700;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 368.94px;
+  height: 316.43px;
+  position: absolute;
+  left: 922.82px;
+  top: 145.43px;
+}
+.rectangle-4139 {
+  background: #77de00;
+  border-radius: 5px;
+  flex-shrink: 0;
+  width: 125px;
+  height: 24px;
+  position: absolute;
+  left: 256px;
+  top: 484px;
+}
+.download-cv {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 288px;
+  top: 488px;
+  width: 93px;
+  height: 16px;
+}
+.icon-download {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: absolute;
+  left: 268px;
+  top: 490px;
+}
+.group {
+  flex-shrink: 0;
+  width: 12px;
+  height: 12px;
+  position: relative;
+  overflow: visible;
+}
+.email-me {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 133px;
+  top: 488px;
+  width: 66px;
+  height: 16px;
+}
+.icon-email {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 13px;
+  position: absolute;
+  left: 112px;
+  top: 490px;
+}
+.group2 {
+  flex-shrink: 0;
+  width: 13px;
+  height: 10.11px;
+  position: relative;
+  overflow: visible;
+}
+.rectangle-4138 {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 2px;
+  flex-shrink: 0;
+  width: 104px;
+  height: 24px;
+  position: absolute;
+  left: 100px;
+  top: 484px;
+}
+.ellipse-8 {
+  background: #77de00;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 368.94px;
+  height: 368.94px;
+  position: absolute;
+  left: 921.48px;
+  top: 101px;
+}
+._42-a-84-eb-6-3335-4-f-4-c-8-d-78-8-fba-1487766-f-removebg-preview-1 {
+  flex-shrink: 0;
+  width: 445.69px;
+  height: 445.69px;
+  position: absolute;
+  left: 883.77px;
+  top: 101px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}

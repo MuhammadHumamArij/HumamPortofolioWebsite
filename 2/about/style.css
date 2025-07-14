@@ -1,0 +1,151 @@
+.section,
+.section * {
+  box-sizing: border-box;
+}
+.section {
+  background: #151515;
+  padding: 60px 80px 60px 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 620px;
+  position: relative;
+  overflow: hidden;
+}
+.vector-200 {
+  flex-shrink: 0;
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  overflow: visible;
+}
+.rectangle-4152 {
+  background: #d9d9d9;
+  flex-shrink: 0;
+  width: 755px;
+  height: 4px;
+  position: absolute;
+  left: 685px;
+  top: 125px;
+}
+.about-me {
+  color: #ebebeb;
+  text-align: left;
+  font-family: "Kanit-Regular", sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  position: absolute;
+  left: 685px;
+  top: 57px;
+  width: 207px;
+  height: 68px;
+}
+.introducing-i-am-muhammad-humam-arij-a-graphic-designer-with-a-great-interest-in-the-creative-world-and-technology-i-graduated-from-bina-nusa-slawi-vocational-school-majoring-in-multimedia-and-currently-continuing-my-studies-at-the-open-university-majoring-in-information-systems-with-an-educational-background-in-multimedia-and-information-technology-i-am-used-to-working-on-various-graphic-design-projects-ranging-from-logo-making-social-media-design-posters-to-other-visual-needs-in-addition-i-also-continue-to-develop-my-skills-in-the-digital-field-including-understanding-how-design-can-be-aligned-with-the-needs-of-today-s-information-systems-and-technology-for-me-design-is-not-just-about-appearance-but-how-to-create-visual-works-that-can-convey-messages-effectively-attractively-and-according-to-purpose-i-always-try-to-produce-designs-that-are-simple-strong-and-easily-understood-by-the-audience-if-you-are-interested-in-working-together-or-would-like-to-discuss-design-ideas-please-feel-free-to-contact-me-at {
+  color: #ffffff;
+  text-align: justified;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 685px;
+  top: 157px;
+  width: 582px;
+  height: 342px;
+}
+.rectangle-4153 {
+  background: #488700;
+  flex-shrink: 0;
+  width: 271px;
+  height: 351px;
+  position: absolute;
+  left: 106px;
+  top: 152px;
+}
+._42-a-84-eb-6-3335-4-f-4-c-8-d-78-8-fba-1487766-f-removebg-preview-1 {
+  flex-shrink: 0;
+  width: 288px;
+  height: 288px;
+  position: absolute;
+  left: 106px;
+  top: 215px;
+  object-fit: cover;
+}
+.ellipse-267 {
+  background: #77de00;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 685px;
+  top: 527px;
+  aspect-ratio: 1;
+}
+.ellipse-268 {
+  background: #77de00;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 751px;
+  top: 527px;
+  aspect-ratio: 1;
+}
+.icon-instagram-icon {
+  flex-shrink: 0;
+  width: 1.32%;
+  height: 3.06%;
+  position: absolute;
+  right: 50.62%;
+  left: 48.06%;
+  bottom: 10.81%;
+  top: 86.13%;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.icon-whatsapp {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: auto;
+  position: absolute;
+  left: 758px;
+  top: 534px;
+  overflow: visible;
+}
+.frame-6 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  left: 899px;
+  top: 83px;
+}
+.icon-search {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+  aspect-ratio: 1;
+}
