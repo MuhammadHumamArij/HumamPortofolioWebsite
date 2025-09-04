@@ -264,7 +264,7 @@ button {
 .hero-image {
   width: 380px; /* Adjusted size */
   height: 380px; /* Adjusted size */
-  border-radius: 50%;
+  border-radius:50%;
   overflow: hidden;
   position: relative;
   z-index: 1;
@@ -290,14 +290,14 @@ button {
   z-index: 0;
 }
 
-.ornament-circle {
-  width: 1px;
-  height: 1px;
+.third-ornament {
+  width: 65%;
+  height: 65%;
   position: absolute;
-  top: 5%;
-  left: 85%;
+  top: 10%;
+  left: 100%;
   transform: translate(-50%, -50%);
-  z-index: 0;
+  z-index: 2;
 }
 
 .ornament-shape {
@@ -311,19 +311,19 @@ button {
 }
 
 .primary-ornament {
-  width: 225px;
-  height: 225px;
-  top: 95%;
-  left: 15%;
+  width: 200px;
+  height: 200px;
+  top: 100%;
+  left: 10%;
   z-index: 2;
   transform: translate(-50%, -50%);
 }
 
 .secondary-ornament {
-  width: 125px;
-  height: 125px;
+  width: 175px;
+  height: 175px;
   top: 10%;
-  left: 2%;
+  left: 0%;
   z-index: -1;
   transform: translate(-50%, -50%);
 }
@@ -331,6 +331,7 @@ button {
 /* About Section */
 .about-section {
   background-color: var(--color-background);
+  padding-top: 60px;
 }
 
 .content-wrapper {
@@ -382,6 +383,7 @@ button {
   align-items: center;
   justify-content: center;
   height: 450px; /* Fixed height for image container */
+  padding: 20px;
 }
 
 .background-about-image {
@@ -755,14 +757,29 @@ button {
   .about-image-container {
     order: 1; /* Image above text content on mobile */
     margin-bottom: var(--gap-medium);
+    width: 100%;
+    height: auto;
   }
 
-  .hero-image,
+  .hero-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  .about-image{
+    display: block;
+    height: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
   .circle-shape,
   .ornament-circle,
   .ornament-shape,
-  .background-about-image,
-  .about-image {
+  .background-about-image {
     display: none; /* Hide complex ornaments/shapes on smaller screens for simplicity */
   }
 
@@ -770,21 +787,11 @@ button {
   .about-image-container {
     height: auto; /* Allow height to adjust */
     min-height: 250px; /* Minimum height for image container */
-    background-color: var(--color-dark-gray); /* Placeholder background */
-    border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   }
 
   .hero-image-container::before,
   .about-image-container::before {
-    content: "Image Placeholder";
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    color: var(--color-text-light);
-    font-size: 20px;
+    content: none;
   }
 
   .hero-buttons,
